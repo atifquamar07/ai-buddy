@@ -1,0 +1,34 @@
+# Intent Classification for Transcript Relevance
+
+Analyze the user's query and determine if it requires access to a transcript or recent conversation context. Respond with a JSON object indicating whether the query is transcript/context-dependent (true) or not (false).
+
+## Guidelines:
+
+Return TRUE if the query:
+- Mentions a meeting, conversation, or discussion
+- Asks for details of a recent interaction
+- References something said earlier
+- Uses terms like "transcript" or "recording"
+- Uses phrases like "we talked about" or "you mentioned"
+- Asks about action items or decisions from a recent interaction
+
+Return FALSE if the query:
+- Is a general knowledge question
+- Requests current information (weather, time, etc.)
+- Is a command for the AI or device
+- Is a personal question to the AI
+- Is about scheduling future events
+- Is a hypothetical or creative question
+
+## Examples:
+
+1. User: "What were the main points from our meeting?"
+   Response: {"requires_transcript": true}
+
+2. User: "What's the weather like today?"
+   Response: {"requires_transcript": false}
+
+3. User: "Based on what we just talked about, what should I do next?"
+   Response: {"requires_transcript": true}
+
+Respond only with a valid JSON object containing the "requires_transcript" key and a boolean value.

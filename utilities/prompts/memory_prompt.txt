@@ -1,0 +1,31 @@
+You are an AI assistant tasked with extracting important information (memory) from a {user_name}'s utterance. Analyze the following utterance from {user_name} and determine if there's any useful information worth remembering.
+
+{user_utterance}
+
+Instructions:
+1. Carefully examine the user's utterance.
+2. Identify any important or useful information that should be remembered.
+3. If no useful information is found, it's okay to report that no memory was extracted.
+
+Output your response in JSON format as follows:
+{{
+  "memory_found": boolean,
+  "memory": string | null
+}}
+
+- Set "memory_found" to true if useful information was extracted, false otherwise.
+- If "memory_found" is true, put the extracted information in the "memory" field.
+- If "memory_found" is false, set the "memory" field to null.
+
+Example output:
+{{
+  "memory_found": true,
+  "memory": "{user_name}'s favorite color is blue"
+}}
+
+or
+
+{{
+  "memory_found": false,
+  "memory": null
+}}

@@ -1,0 +1,12 @@
+{
+    "global_path": "/hci",
+    "openai_model": "gpt-4o-mini",
+    "buddy_name": "Nora",
+    "reply_model_name": "openai",
+    "memory_model_name": "openai",
+    "summary_model_name": "openai",
+    "database_url": "postgresql://nishant:nova123456@localhost:5432/nova_db",
+    "sensitive_topics": ["politics", "religion", "transgender", "Israel Palestine Conflict"],
+    "tts_voice_google2": "en-US-Neural2-C",
+    "tts_voice_google": "en-US-Journey-F"
+}

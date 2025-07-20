@@ -1,0 +1,6 @@
+.env
+venv/
+logs/
+config/google_secret_key_tts.json
+__pycache__/
+*.pyc

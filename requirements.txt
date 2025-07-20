@@ -1,0 +1,24 @@
+boto3
+distutils-pytest
+email_validator
+fastapi
+Flask
+google
+groq
+gunicorn
+httptools
+openai
+pipdeptree
+psycopg2-binary
+# PyAudio
+python-dotenv
+PyYAML
+setuptools
+SpeechRecognition
+SQLAlchemy
+termcolor
+uvicorn
+uvloop
+watchfiles
+websockets
+google-cloud-texttospeech

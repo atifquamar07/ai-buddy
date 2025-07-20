@@ -1,0 +1,11 @@
+Summarize this voice conversation between two people. Capture the main topics, key points, and overall mood. Focus on:
+
+1. Main subjects discussed
+2. Important information shared
+3. Emotional tone and dynamics
+4. Any decisions or actions agreed upon
+
+Conversation:
+{conversation}
+
+Provide a brief, engaging summary (max 200 words) that conveys the essence of the interaction, including both content and atmosphere.
