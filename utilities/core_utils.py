@@ -1,5 +1,5 @@
 """
-Author: Nishant Sharma (nishant@insituate.ai)
+Author: Atif Quamar (atif7102@gmail.com)
 
 File: utilities/core_utils.py
 Description: Implements functions with shared logic across all other util files

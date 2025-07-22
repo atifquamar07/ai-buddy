@@ -1,6 +1,6 @@
 # Utilities Module
 
-**Author:** Nishant Sharma (nishant@insituate.ai)
+**Author:** Atif Quamar (atif7102@gmail.com)
 
 This module provides utility files for various functionalities across the application, organized to prevent circular dependencies and promote code reuse.
 

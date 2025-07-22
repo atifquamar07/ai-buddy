@@ -1,5 +1,5 @@
 """
-Author: Nishant Sharma (nishant@insituate.ai)
+Author: Atif Quamar (atif7102@gmail.com)
 
 File: utilities/llm_utils.py
 Description: Implements llm calls

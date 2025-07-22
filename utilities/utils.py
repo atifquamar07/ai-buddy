@@ -1,5 +1,5 @@
 """
-Author: Nishant Sharma (nishant@insituate.ai)
+Author: Atif Quamar (atif7102@gmail.com)
 
 File: utilities/utils.py
 Description: Implements various global methods for Nova
